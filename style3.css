@@ -1,0 +1,51 @@
+body{
+	background-color: skyblue;
+}
+
+#container{
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	background: lightgrey;
+	width: 600px;
+	height: 300px;
+	padding: 20px;
+	text-align: center;
+}
+
+h2{
+	font-size: 25px;
+	margin: 20px;
+}
+
+.inputfield{
+	height: 40px;
+	width: 500px;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-size: 25px;
+}
+
+#button{
+	padding: 10px 20px;
+	background: green;
+	border: none;
+	cursor: pointer;
+}
+
+#random{
+	color: green;
+}
+.show{
+	display: block;
+}
+
+.feedback{
+	display: block;
+	visibility: hidden;
+}
+
+#output{
+	font-size: 25px;
+	margin: 20px;
+}
